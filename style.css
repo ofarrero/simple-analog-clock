@@ -57,10 +57,10 @@
 }
 
 /* Make all arms rotate around the same center point. */
-/* Optional: Use transition for animation. */
+
 #hour,
 #minute,
 #second {
     transform-origin: 300px 300px;
-    transition: transform .5s ease-in-out;
+    transition: transform .5s ease-in-out; /* creates an animation effect to move the hands nicely*/
 }
